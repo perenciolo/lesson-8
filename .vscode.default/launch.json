@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Listen for XDebug",
+      "type": "php",
+      "request": "launch",
+      "port": 9000,
+      "pathMappings": {
+        "/path/to/drupal/webroot": "${workspaceRoot}"
+      },
+      "xdebugSettings": {
+        "show_hidden": 1
+      }
+    },
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "Launch Chrome",
+      "url": "https://drupal.org",
+      "webRoot": "${workspaceFolder}"
+    }
+  ]
+}
