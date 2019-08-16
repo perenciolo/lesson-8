@@ -8,35 +8,18 @@
   "editor.formatOnPaste": true,
   "editor.formatOnSave": false,
   "editor.renderWhitespace": "boundary",
-  "editor.wordWrapColumn": 80,
-  "editor.wordWrap": true,
   "editor.detectIndentation": true,
-  "editor.rulers": [
-    80
-  ],
-  "files.associations": {
-    "*.inc": "php",
-    "*.module": "php",
-    "*.install": "php",
-    "*.theme": "php",
-    "*.tpl.php": "php",
-    "*.test": "php",
-    "*.php": "php"
-  },
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
   "html.format.enable": true,
   "html.format.wrapLineLength": 80,
   "telemetry.enableTelemetry": false,
-
   /* Empty Indent */
   "emptyIndent.removeIndent": true,
   "emptyIndent.highlightIndent": false,
   "emptyIndent.highlightColor": "rgba(246,36,89,0.6)",
-
   /* Crane php intellisense */
   "crane.showStatusBarBugReportLink": false,
-
   /* Ignore some D8 paths */
   "crane.ignoredPaths": [
     "sites/default/files/*",
@@ -57,4 +40,74 @@
   "php.validate.run": "onType",
   "php.suggest.basic": false,
   "php.executablePath": "/usr/bin/php7.2",
+  //
+  "workbench.colorTheme": "Dracula",
+  "workbench.iconTheme": "material-icon-theme",
+  "emmet.includeLanguages": {
+    "twig": "html",
+    "javascript": "javascriptreact"
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "files.associations": {
+    "*.theme": "php",
+    "*.yml": "yaml",
+    "*.inc": "php",
+    "*.module": "php",
+    "*.install": "php",
+    "*.tpl.php": "php",
+    "*.test": "php",
+    "*.php": "php"
+  },
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 16,
+  "editor.lineHeight": 24,
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.rulers": [
+    80,
+    120
+  ],
+  "terminal.integrated.fontSize": 14,
+  // "phpfmt.indent_with_space": 2,
+  // "phpfmt.detect_indent": true,
+  "twig-language-2.tabSize": 2,
+  "window.zoomLevel": 2,
+  "prettier.eslintIntegration": true,
+  "explorer.confirmDelete": false,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+  },
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
 }
