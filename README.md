@@ -1,20 +1,12 @@
-## Lesson-8
+## CRWN Clothing Portifolio Application
 
-Starting our sign in section by creating a new sign in and sign up page, as well as start creating sign in component.
+This app is a display of react and redux studies. It's a fully functional webstore with integrations with `firebase` | `Google OAuth` | `stripe payments` | `redux` | `react hooks` | `styled components` | `react saga` and more.
 
-# How to fork and clone
-
-One quick note about cloning this project. If you wish to make commits and push the code up after cloning this repo, you should fork the project first. In order to own your own copy of this repository, you have to fork it so you get your own copy on your own profile!
-
-You can see the fork button in the top right corner of every GitHub project; click it and a copy of the project will be added to your GitHub profile under the same name as the original project.
-
-![alt text](https://i.ibb.co/1YN7SJ6/Screen-Shot-2019-07-01-at-2-02-40-AM.png "image to fork button")
-
-After forking the project, simply clone it the way you would from the new forked project in your own GitHub repository and you can commit and push to it freely!
-
-
-# After you fork and clone:
+Live demo: https://crwn-clothing-gp.herokuapp.com/
+  *This site is deployed in Heroku Paas in a free tier, so it would take a couple of minutes to load on the first access.
 
 ## Install dependencies
 
 In your terminal after you clone your project down, remember to run either `yarn` or `npm install` to build all the dependencies in the project.
+
+**Udemy related course link: https://www.udemy.com/https://www.udemy.com/complete-react-developer-zero-to-mastery
