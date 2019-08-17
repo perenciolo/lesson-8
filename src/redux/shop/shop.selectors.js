@@ -14,3 +14,22 @@ export const selectShopCollections = createSelector(
   [selectShop],
   shop => shop.collections
 );
+
+/**
+ * Transform data into an array.
+ */
+export const selectCollectionsForPreview = createSelector(
+  [selectShopCollections],
+  collections => Object.keys(collections).map(key => collections[key])
+);
+
+/**
+ * Create selector find collection item that matches id with collection.
+ *
+ * @param {string} collectionUrlParam collection id url param.
+ */
+export const selectCollection = collectionUrlParam =>
+  createSelector(
+    [selectShopCollections],
+    collections => collections[collectionUrlParam]
+  );
